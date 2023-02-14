@@ -2,6 +2,7 @@
 import { RouterLink } from "vue-router";
 import { useGetData } from "@/composables/getData";
 
+
 const { data, loading, getData, error } = useGetData();
 
 getData("https://pokeapi.co/api/v2/pokemon/");
